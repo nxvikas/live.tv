@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Live.TV.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Live.TV Фильмы и сериалы для всей семьи</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./img/Live.TV.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Фильмы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Сериалы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Мультфильмы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Новинки</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="./img/search.svg">Поиск</img>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success" type="submit">Search</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="font-size: 14px;" aria-current="page" href="#">
+                                    <img src="./img/bag.svg">Мои покупки</img>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="font-size: 14px;" aria-current="page" href="#">
+                                    <img src="./img/account.svg">Мой аккаунт</img>
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="nn">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-sm-12 col-md-9 col-xl-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1 style="text-transform: uppercase;">Незнакомец</h1>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">8.9 <span class="blur" style="margin-left: 10px;">2020, США Триллер,
+                                    драма
+                                    113 мин</span> <img src="./img/age.svg"></p>
+                            <p class="card-text mb-5">Софи была счастлива в браке
+                                со своим мужем<br> Генри. Пока однажды
+                                ей не пришло анонимное<br> письмо,
+                                предупреждение, что ей нужно бежать<br>
+                                от мужа. Пытаясь разгадать эту загадку,
+                                Софи<br> впадает в ужас, ведь Генри оказывается
+                                совсем<br>не тем человеком, которого она знает...
+                            </p>
+                            <div class="row">
+                                <div class="col mb-2">
+                                    <button class="btn btn-blue" type="button"><img class="knop"
+                                            src="./img/play.svg">Смотреть бесплатно</button>
+                                </div>
+                                <div class="col mb-2">
+                                    <button class="btn btn-grad" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                        type="button"><img class="knop" src="./img/video.svg">Трейлер</button>
+                                </div>
+                                <div class="col mb-2">
+                                    <button class="btn btn-grad" style="width: 50px;" type="button"><img
+                                            src="./img/bookmark.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="recomendation">
+        <div class="container">
+            <h2 class="mb-5">Рекомендуем посмотреть</h2>
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2">
+                <div class="col mb-3">
+                    <div class="card">
+                        <a href="https://hd.kinopoisk.ru/film/46f1c1a48b5a5f638303164db8a5014d"><img src="./img/2.jpg"
+                                class="card-img-top" alt="..."></a>
+                        <p class="text">Под водой</p>
+                        <span class="blur">Приключения, семейный</span>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <a href="https://hd.kinopoisk.ru/film/64e4716d71164b1a81bd2ec7459c8caa"><img src="./img/3.jpg"
+                                class="card-img-top" alt="..."></a>
+                        <p class="text">Мгла</p>
+                        <span class="blur">Ужасы, триллер</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="https://hd.kinopoisk.ru/film/474708218ac8fb65b2b0d2e4e6e37db4"><img src="./img/4.jpg"
+                                class="card-img-top" alt="..."></a>
+                        <p class="text">Охота</p>
+                        <span class="blur">Детектив, криминал, драма</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="https://hd.kinopoisk.ru/film/9bf069e81fe34522865327ada1a1e97b"><img src="./img/5.jpg"
+                                class="card-img-top" alt="..."></a>
+                        <p class="text">Синхронизация</p>
+                        <span class="blur">Триллер, драма</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cosmos">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-sm-12 col-md-9 col-xl-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1 style="text-transform: uppercase;">Космическая подборка</h1>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text mb-5">100 лучших фильмов о космосе,
+                                других планетах<br> и инопланетян. Рейтинг составлен
+                                на основании<br> оценок и рецензий пользователей Live.TV.
+                            </p>
+                            <div class="row">
+                                <div class="col mb-2">
+                                    <button class="btn btn-blue" type="button">Смотреть подборку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hard">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <button class="btn btn-orange text-uppercase mb-3" type="button">Открытие недели</button>
+                    <div class="card-header" style="margin-top: 0; padding: 0;">
+                        <h1 style="text-transform: uppercase;">Бессонница</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body" style="padding: 0;">
+                            <p class="card-text">7.8 <span class="blur" style="margin-left: 10px;">2021, США Драма,
+                                    триллер
+                                    98 мин</span> <img src="./img/age.svg"></p>
+                            <p class="card-text mb-5">Драма, в которой стерты все границы реальности<br>
+                                и вымысла. Потеряв сон, герой Метью Кросса потерял<br>
+                                себя и уже не понимает, что происходит по-настоящему,<br>
+                                а что является плодом его воображения
+                            </p>
+                            <div class="card-header mb-5" style="margin-top: 0; padding: 0;">
+                                <h1 style="text-transform: uppercase;">199 ₽</h1>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col mb-2">
+                                    <button class="btn btn-blue" type="button"><img class="knop"
+                                            src="./img/play.svg">Смотреть
+                                        бесплатно</button>
+                                </div>
+                                <div class="col mb-2">
+                                    <button class="btn btn-grad" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal1"><img class="knop"
+                                            src="./img/video.svg">Трейлер</button>
+                                </div>
+                                <div class="col mb-2">
+                                    <button class="btn btn-grad" style="width: 50px;" type="button"><img
+                                            src="./img/bookmark.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="card"><img src="./img/7.jpg" style="object-fit: cover; border-radius: 5px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <style>
+                        .tab {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 1rem;
+                            font-family: 'Golos-dbold';
+                        }
+
+                        .tab>input[type="radio"] {
+                            display: none;
+                        }
+
+                        .tab-content {
+                            display: none;
+                            width: 100%;
+                            margin-top: 1rem;
+                            font-family: 'Golos';
+                            margin-bottom: 20px;
+                        }
+
+                        #tab-btn-1:checked~#content-1,
+                        #tab-btn-2:checked~#content-2,
+                        #tab-btn-3:checked~#content-3 {
+                            display: block;
+                        }
+
+                        .tab>label {
+                            padding-top: 0.5rem;
+                            padding-bottom: 0.5rem;
+                            cursor: pointer;
+                            transition: color .15s ease-in-out, border-color .15s ease-in-out;
+                            color: rgba(255, 255, 255, 0.3);
+                            background: 0 0;
+                            border-bottom: 0.125rem solid transparent;
+                            text-transform: uppercase;
+                        }
+
+                        .tab>label:hover {
+                            border-bottom-color: #212529;
+                        }
+
+                        .tab>input[type="radio"]:checked+label {
+                            cursor: default;
+                            font-weight: bold;
+                            color: #fff;
+                            border-bottom-color: #0353d5;
+                        }
+                    </style>
+                    <div class="tab">
+                        <input checked id="tab-btn-1" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-1">описание</label>
+                        <input id="tab-btn-2" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-2">детали</label>
+                        <input id="tab-btn-3" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-3">отзывы</label>
+                        <div class="tab-content" id="content-1">
+                            Самуэль уже забыл, когда высыпался последний раз. Он перестал понимать, где граница жизни, а
+                            где небытия. Но он пытается продолжать жить и работать, как ни в чем не бывало. Неожиданно в
+                            его жизни начали появляться необычные люди. На работе появился новый коллега, который
+                            общается только с ним. В доме появляется соседка, с которой у него закрутился роман. Самуэль
+                            продолжал жить и не обращал внимания на бессоницу.
+                            <p></p>Пока однажды в его жизни начали появляться не только новые люди, но и те, кто уже
+                            давно
+                            покинул этот мир. Теперь Самуэль пытается понять, где реальность, кто из всех окружающих его
+                            людей
+                        </div>
+                        <div class="tab-content" id="content-2">
+                            Самуэль уже забыл, когда высыпался последний раз. Он перестал понимать, где граница жизни, а
+                            где небытия. Но он пытается продолжать жить и работать, как ни в чем не бывало. Неожиданно в
+                            его жизни начали появляться необычные люди. На работе появился новый коллега, который
+                            общается только с ним. В доме появляется соседка, с которой у него закрутился роман. Самуэль
+                            продолжал жить и не обращал внимания на бессоницу.
+                        </div>
+                        <div class="tab-content" id="content-3">
+                            фильм топ шик...советуем все дела лялялялялялял
+                            яляля
+                            лялялялялялялля
+                            яляляля
+                            яляляляяляляя
+                            лялялялялялялялляллялялялялялялляяляляля
+                            яляляляяляляя
+                            лялялялялялялял
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/8.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/9.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/10.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/11.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="live pt-5 pb-5">
+        <div class="container">
+            <div class="row row-cols-2">
+                <div class="col col-lg-6 col-md-12 col-sm-12">
+                    <img src="./img/12.png" class="mb-4">
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12">
+                    <div class="card-header" style="margin-top: 0; padding: 0;">
+                        <h2>Live TV - это ваши любимые фильмы и сериалы в отличном качестве</h2>
+                    </div>
+                    <div class="card">
+                        <div class="card-body" style="padding: 0;">
+                            <p class="card-text mb-5">Эксклюзивные премьеры и любимые легендарные фильмы, под любое
+                                настроение и для зрителей всех возрастов и интересов. Лицензионное качество видео,
+                                отличная картинка, оригинальная озвучка, просмотр без рекламы на любом устройстве - все
+                                это доступно в видеосервисе Live TV. Оформите подписку и смотрите любое кино на 5 разных
+                                устройствах.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <h2 class="blue m-0" style="font-family: 'Golos-bold';">40 млн</h2>
+                            <p>пользователей</p>
+                        </div>
+                        <div class="col">
+                            <h2 class="blue m-0" style="font-family: 'Golos-bold';">300 тысяч</h2>
+                            <p>фильмов и сериалов</p>
+                        </div>
+                        <div class="col">
+                            <h2 class="blue m-0" style="font-family: 'Golos-bold';">100 +</h2>
+                            <p>эксклюзивных проектов</p>
+                        </div>
+                        <div class="col">
+                            <h2 class="blue m-0" style="font-family: 'Golos-bold';">2 млрд часов</h2>
+                            <p>просмотра за 2020 год</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-header" style="margin-top: 0; padding: 0;">
+                        <h1 style="text-transform: uppercase;">оформите подписку</h1>
+                    </div>
+                    <div class="col col-lg-5">
+                        <div class="card">
+                            <div class="card-body" style="padding: 0;">
+                                <p class="card-text mb-5">Получите полный доступ к каталогу Live. Безупречное качество
+                                    картинки и звука, одновременный просмотр на 5 устройствах, отсутствие рекламы,
+                                    загрузка
+                                    на устройства для офлайн-доступа.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-6 col-md-12 col-sm-12">
+                    <form class="row g-3">
+                        <div class="col col-lg-10 col-md-8 col-sm-10">
+                            <label for="inputEmail4" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="inputEmail4" required>
+                        </div>
+                        <div class="col col-lg-10 col-md-8 col-sm-10">
+                            <label for="inputAddress" class="form-label">Телефон</label>
+                            <input type="text" class="form-control" id="inputAddress" required>
+                        </div>
+                        <div class="col col-lg-10 col-md-8 col-sm-10">
+                            <label for="inputAddress2" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="inputAddress2" required>
+                        </div>
+                        <div class="col col-lg-10 col-md-10 col-sm-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">1 месяц</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">3 месяца</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">6 месяцев</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">12 месяцев</label>
+                            </div>
+                        </div>
+                        <div class="col col-lg-10 col-md-10 col-sm-10">
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck">
+                                    Я согласен на обработку моих персональных данных
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col col-lg-10 col-md-10 col-sm-10">
+                            <button class="btn btn-blue" type="submit">Оформить подписку</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12">
+                    <div class="row row-cols-2">
+                        <div class="col p-3">
+                            <div class="card border-blue" style="max-width: 18rem;">
+                                <div class="card-body text-blue text-center">
+                                    <p>1 месяц</p>
+                                    <h2 class="blue2">199 ₽</h2>
+                                    <p>199 ₽/месяц</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3">
+                            <div class="card border-blue" style="max-width: 18rem;">
+                                <div class="card-body text-blue text-center">
+                                    <p>3 месяца</p>
+                                    <h2 class="blue2">529 ₽</h2>
+                                    <p>176 ₽/месяц</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3">
+                            <div class="card border-blue" style="max-width: 18rem;">
+                                <div class="card-body text-blue text-center">
+                                    <p>6 месяцев</p>
+                                    <h2 class="blue2">999 ₽</h2>
+                                    <p>166 ₽/месяц</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3">
+                            <div class="card border-blue" style="max-width: 18rem;">
+                                <div class="card-body text-blue text-center">
+                                    <p>12 месяцев</p>
+                                    <h2 class="blue2">1790 ₽</h2>
+                                    <p>149 ₽/месяц</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-4 " style="background-color: rgb(31,31,31);">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex mb-3">
+                    <div class="p-2 small">Live.TV © 2021 Все права защищены</div>
+                    <div class="p-2 small"><a href="">Политика конфиденциальности</a></div>
+                    <div class="ms-auto p-2">
+                        <div class="d-flex" style="gap: 15px;">
+                            <a href="https://en.wikipedia.org/wiki/Facebook" class="anim"><img src="./img/facebook.svg"></a>
+                            <a href="https://en.wikipedia.org/wiki/Instagram" class="anim"><img src="./img/instagram.svg"></a>
+                            <a href="https://en.wikipedia.org/wiki/YouTube" class="anim"><img src="./img/youtube.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="exampleModalLabel">Смотри трейлер прямо здесь!</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/yWPqNmZMWKY' frameborder='0'
+                            allowfullscreen></iframe></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="exampleModalLabel">Смотри трейлер прямо здесь!</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/INp42tyY-_o' frameborder='0'
+                            allowfullscreen></iframe></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
